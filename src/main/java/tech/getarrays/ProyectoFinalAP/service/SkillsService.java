@@ -3,8 +3,7 @@ package tech.getarrays.ProyectoFinalAP.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import tech.getarrays.ProyectoFinalAP.exception.SkillsNotFoundException;
-import tech.getarrays.ProyectoFinalAP.model.Educacion;
-import tech.getarrays.ProyectoFinalAP.model.Experiencia;
+
 import tech.getarrays.ProyectoFinalAP.model.Skills;
 import tech.getarrays.ProyectoFinalAP.repo.Skillsrepo;
 

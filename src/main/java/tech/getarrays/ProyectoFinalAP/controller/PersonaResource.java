@@ -1,6 +1,5 @@
 package tech.getarrays.ProyectoFinalAP.controller;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.prepost.PreAuthorize;
 import tech.getarrays.ProyectoFinalAP.model.Persona;
 import tech.getarrays.ProyectoFinalAP.service.PersonaService;
 import org.springframework.http.HttpStatus;

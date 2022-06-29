@@ -3,7 +3,6 @@ package tech.getarrays.ProyectoFinalAP.controller;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import tech.getarrays.ProyectoFinalAP.model.Persona;
 import tech.getarrays.ProyectoFinalAP.model.Proyectos;
 import tech.getarrays.ProyectoFinalAP.service.ProyectosService;
 
