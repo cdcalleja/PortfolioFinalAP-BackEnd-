@@ -17,7 +17,7 @@ public class EducacionResource {
         this.educacionService = educacionService;
     }
 
-    @GetMapping("/all")
+    @GetMapping("all")
     public ResponseEntity<List<Educacion>> getAllEducaciones() {
         List<Educacion> educaciones = educacionService.findAllEducaciones();
         return new ResponseEntity<>(educaciones, HttpStatus.OK);
