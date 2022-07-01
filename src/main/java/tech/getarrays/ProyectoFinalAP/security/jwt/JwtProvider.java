@@ -1,5 +1,4 @@
 package tech.getarrays.ProyectoFinalAP.security.jwt;
-import org.springframework.security.core.GrantedAuthority;
 import tech.getarrays.ProyectoFinalAP.security.entity.UsuarioPrincipal;
 
 import io.jsonwebtoken.*;
@@ -10,7 +9,6 @@ import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
-import java.util.stream.Collectors;
 
 @Component
 public class JwtProvider {
